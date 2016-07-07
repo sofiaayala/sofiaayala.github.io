@@ -1,0 +1,188 @@
+
+* {
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box; 
+}
+
+header {
+    height: 50px;
+}
+
+nav {
+    text-align: center;
+    font-family: Open Sans;
+    margin-top: 25px;
+}
+
+nav span{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#searchHub {
+    height: 200px;
+    background-color: #FAFAFA;
+}
+
+#featuredListings {
+    height: 300px;
+    background-color: #F0F0F0;
+}
+
+.listing {
+    background-color: #FAFAFA;
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin: 25px 40px;
+}
+
+#jorgeAyala {
+    height: 325px;
+}
+
+img{
+    height: 300px;
+    float: left;
+    margin-left: 15%;
+    margin-right: 5%;
+}
+
+#welcome {
+    margin-right: 15%;
+}
+
+#contact {
+    background-color: #FAFAFA;
+    height: 600px;
+}
+
+#contactForm {
+    height: 500px;
+    width: 35%;
+    background-color: #DEDEDE;
+    float: left;
+    margin-left: 15%;
+    margin-top: 50px;
+    padding: 2%;
+}
+
+#phone {
+    height: 200px;
+    width: 32%;
+    float: left;
+    margin-top: 50px;
+    background-color: #DEDEDE;
+    margin-left: 3%;
+    margin-right: 15%;
+    padding: 2%;
+}
+
+#address {
+    height: 275px;
+    background-color: #DEDEDE;
+    width: 32%;
+    margin-left: 3%;
+    margin-right: 15%;
+    margin-top: 25px;
+    float: left;
+    padding: 2%;
+}
+
+footer {
+    height: 50px;
+    padding: 3%;
+    text-align: center;
+}
+
+#about {
+    background-color: #DEDEDE;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding: 2%;
+    margin-top: 50px;
+}
+
+#experience {
+    background-color: #DEDEDE;
+    margin-right: 2%;
+    margin-left: 15%;
+    width: 34%;
+    float: left;
+    padding: 2%;
+    margin-top: 20px;
+}
+
+#awards {
+    background-color: #DEDEDE;
+    margin-right: 15%;
+    width: 34%;
+    float: left;
+    padding: 2%;
+    margin-top: 20px;
+}
+
+h9 {
+    font-size: 12px;
+}
+
+#thoughts {
+    clear: both;
+    background-color: #FAFAFA;
+}
+
+.thought {
+    background-color: #DEDEDE;
+    width: 35%;
+}
+
+footer {
+    clear: both;
+}
+
+/*VIDEO BANNER STYLES*/
+
+/*/*./*homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+    display: block;*/
+/*}*/
+/*.no-video .video-container video,
+.touch .video-container video {
+    display: none;*/
+/*}*/
+/*.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}*/
+/*.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}*/
+/*/
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    width: 100%;
+}

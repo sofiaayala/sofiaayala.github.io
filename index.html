@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Jorge Ayala</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://use.fontawesome.com/c908e7c45f.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- logo -->
+      <nav> 
+        <span> Home </span> | 
+        <span><a href="about.html"> About </a></span> | 
+        <span> Contact </span>
+      </nav>
+    </header>
+    
+    <div id="banner">
+      <div class="homepage-hero-module">
+          <div class="video-container">
+              <div class="filter"></div>
+              <video autoplay loop class="fillWidth">
+                  <source src="images/sunset.mp4" type="video/mp4" />Your browser does not support the video.
+                  <source src="images/sunset.webm" type="video/webm" />Your browser does not support the video.
+              </video>
+              <div class="poster hidden">
+                  <!-- for some reason, when I correct this path, the browser uses the image instead of the video above. Going to leave it broken until I can figure out why, because I want to video to play, unless the browser / device won't play/loop it automatically -->
+                  <!-- <img src="images/sunset/jpg" alt=""> -->
+              </div>
+          </div>
+      </div>
+    </div>
+
+    <div id="searchHub"></div>
+
+    <div id="featuredListings">
+      <div class="listing"></div>
+      <div class="listing"></div>
+      <div class="listing"></div>
+      <div class="listing"></div>
+    </div>
+
+    <div id="jorgeAyala">
+      <div id="profilepic">
+        <img src="images/jorgeayala.jpg"> 
+      </div>
+      <div id="welcome">
+        <h3>Welcome</h3>
+        <p>Bright & Spacious, Top Floor/Corner Suite next to Fairview is sure to please. Come feel the warmth of tradition from Vinyl thermo windows, plenty of storage, commercial grade Wolf & Sub Zero appliances & inlayed oak and fir floors to the contemporary and serious updating. A large double garage, plenty of storage in the crawl space and a manicured yard make this the move in and worry free home you've been looking for!</p>
+        <a href="about.html"><button>More</button></a>
+      </div>
+    </div>
+
+    <div id="contact">
+      <div id="contactForm">
+        <h2>Contact Us</h2>
+        <form>
+          <input type="text" name="name" placeholder="Name"></input>
+          <input type="text" name="email" placeholder="Email"></input>
+          <input type="text" name="subject" placeholder="Subject"></input>
+          <textarea name="subject" placeholder="Message"></textarea>
+        </form>
+
+      </div>
+      <div id="phone">
+        <h2>Phone</h2>
+        <p>Cell: (214) 794-0130</p>
+        <p>Fax: (123) 456-7890</p>
+        <h2>Email</h2>
+        <p>jorgeayala7@hotmail.com</p>
+      </div>
+      <div id="address">
+        <h2>Address</h2>
+      </div>
+    </div>
+
+    <footer>
+      <i class="fa fa-linkedin-square" aria-hidden="true"></i> | 
+      <i class="fa fa-facebook-square" aria-hidden="true"></i>
+    </footer>
+
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
