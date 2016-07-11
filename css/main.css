@@ -35,15 +35,15 @@ video {
     min-height: 25%;
     width: 100%;
     height: auto;
-/*    position: relative;
-    top: -300px;
-    z-index: -1;*/
-}
-
-#banner {
     position: relative;
     top: -300px;
     z-index: -1;
+}
+
+#banner {
+/*    position: relative;
+    top: -300px;
+    z-index: -1;*/
 }
 
 a:link {
@@ -227,6 +227,10 @@ h9 {
 .thought {
     background-color: #DEDEDE;
     width: 35%;
+}
+
+#thankyou h1, p{
+    margin: 0 auto;
 }
 
 footer {
