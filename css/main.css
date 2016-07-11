@@ -6,16 +6,23 @@
 }
 
 header {
-    height: 50px;
+    height: 75px;
     border-bottom: 2px solid #7F7F7F;
-    background: transparent;
+    background: rgba(255,255,255, 0.5);
+}
+
+#logo {
+    height: 125px;
+    position: absolute;
+    top: -25px;
 }
 
 nav {
     text-align: center;
     font-family: Open Sans;
-    margin-top: 25px;
     font-size: 20px;
+    position: relative;
+    top: 25px;
 }
 
 nav span{
@@ -27,7 +34,16 @@ video {
     min-width: 25%;
     min-height: 25%;
     width: 100%;
-    height: 550px;
+    height: auto;
+/*    position: relative;
+    top: -300px;
+    z-index: -1;*/
+}
+
+#banner {
+    position: relative;
+    top: -300px;
+    z-index: -1;
 }
 
 a:link {
@@ -47,12 +63,14 @@ a:hover {
 #searchHub {
     height: 200px;
     background-color: #FAFAFA;
+    border-bottom: 2px solid #7F7F7F;
 }
 
 #featuredListings {
     height: 300px;
-    background-color: #F0F0F0;
+    background-color: #F0FFF0;
     margin: 0 auto;
+    border-bottom: 2px solid #7F7F7F;
 }
 
 .listing {
@@ -66,6 +84,7 @@ a:hover {
 
 #jorgeAyala {
     height: 325px;
+    border-bottom: 2px solid #7F7F7F;
 }
 
 img{
@@ -87,8 +106,9 @@ button {
 }
 
 #contact {
-    background-color: #FAFAFA;
+    background-color: #F0FFF0;
     height: 600px;
+    border-bottom: 2px solid #7F7F7F;
 }
 
 #contactForm {
@@ -211,50 +231,4 @@ h9 {
 
 footer {
     clear: both;
-}
-
-/*VIDEO BANNER STYLES*/
-
-/*/*./*homepage-hero-module {
-    border-right: none;
-    border-left: none;
-    position: relative;
-    display: block;*/
-/*}*/
-/*.no-video .video-container video,
-.touch .video-container video {
-    display: none;*/
-/*}*/
-/*.no-video .video-container .poster,
-.touch .video-container .poster {
-    display: block !important;
-}*/
-/*.video-container {
-    position: relative;
-    bottom: 0%;
-    left: 0%;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    background: #000;
-}*/
-/*/
-.video-container .poster img {
-    width: 100%;
-    bottom: 0;
-    position: absolute;
-}
-.video-container .filter {
-    z-index: 100;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.4);
-    width: 100%;
-}
-.video-container video {
-    position: absolute;
-    z-index: 0;
-    bottom: 0;
-}
-.video-container video.fillWidth {
-    width: 100%;
 }
