@@ -239,6 +239,7 @@ footer {
     margin-left: 15%;
     padding: 2%;
     margin-top: 50px;
+    border-radius: 3px;
 }
 
 #experience {
@@ -250,6 +251,7 @@ footer {
     padding: 2%;
     margin-top: 20px;
     margin-bottom: 30px;
+    border-radius: 3px;
 }
 
 #awards {
@@ -259,6 +261,7 @@ footer {
     float: left;
     padding: 2%;
     margin-top: 20px;
+    border-radius: 3px;
 }
 
 h9 {
@@ -297,11 +300,13 @@ h9 {
 #thoughtOne, #thoughtThree {
     position: relative;
     left: 16%;
+    border-radius: 3px;
 }    
 
 #thoughtTwo {
     position: relative;
     left: 48%;
+    border-radius: 3px;
 } 
 
 #thankyou h1{
