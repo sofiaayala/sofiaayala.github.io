@@ -2,12 +2,13 @@
 * {
   -moz-box-sizing: border-box; 
   -webkit-box-sizing: border-box; 
-  box-sizing: border-box; 
+  box-sizing: border-box;
+  font-family: Lato;
 }
 
 header {
     height: 75px;
-    border-bottom: 2px solid #7F7F7F;
+    border-bottom: 2px solid #3D7DC0;
     background: rgba(255,255,255, 0.5);
 }
 
@@ -19,7 +20,6 @@ header {
 
 nav {
     text-align: center;
-    font-family: Open Sans;
     font-size: 20px;
     position: relative;
     top: 25px;
@@ -36,14 +36,14 @@ video {
     width: 100%;
     height: auto;
     position: relative;
-    top: -300px;
-    z-index: -1;
+/*    top: -300px;
+    z-index: -1;*/
 }
 
 #banner {
-/*    position: relative;
-    top: -300px;
-    z-index: -1;*/
+    position: relative;
+    margin-top: -300px;
+    z-index: -1;
 }
 
 a:link {
@@ -64,18 +64,18 @@ a:hover {
 #searchHub {
     height: 200px;
     background-color: #FAFAFA;
-    border-bottom: 2px solid #7F7F7F;
+    border-bottom: 2px solid #3D7DC0;
 }
 
 #featuredListings {
     height: 300px;
-    background-color: #F0FFF0;
+    background-color: #4AB967;
     margin: 0 auto;
-    border-bottom: 2px solid #7F7F7F;
+    border-bottom: 2px solid #3D7DC0;
 }
 
 .listing {
-    background-color: #FAFAFA;
+    background-color: #3A9C56;
     height: 250px;
     width: 250px;
     float: left;
@@ -84,8 +84,8 @@ a:hover {
 }
 
 #jorgeAyala {
+    border-bottom: 2px solid #3D7DC0;
     height: 325px;
-    border-bottom: 2px solid #7F7F7F;
 }
 
 img{
@@ -107,15 +107,16 @@ button {
 }
 
 #contact {
-    background-color: #F0FFF0;
+    background-color: #4AB967;
     height: 600px;
-    border-bottom: 2px solid #7F7F7F;
+    border-bottom: 2px solid #3D7DC0;
+    clear: both;
 }
 
 #contactForm {
     height: 500px;
     width: 35%;
-    background-color: #DEDEDE;
+    background-color: #F0F0F0;
     float: left;
     margin-left: 15%;
     margin-top: 50px;
@@ -143,9 +144,9 @@ textarea {
 textarea:focus,
 input:focus {
   background: white;
-  border: 1px solid #99E2FF;
+  border: 1px solid #4AB967;
   outline: none;
-  box-shadow: 0 0 6px #99E2FF;
+  box-shadow: 0 0 6px #4AB967;
 }
 
 #contactsubmit {
@@ -161,7 +162,7 @@ input:focus {
     width: 32%;
     float: left;
     margin-top: 50px;
-    background-color: #DEDEDE;
+    background-color: #F0F0F0;
     margin-left: 3%;
     margin-right: 15%;
     padding: 2%;
@@ -174,7 +175,7 @@ input:focus {
 
 #address {
     height: 275px;
-    background-color: #DEDEDE;
+    background-color: #F0F0F0;
     width: 32%;
     margin-left: 3%;
     margin-right: 15%;
@@ -183,14 +184,21 @@ input:focus {
     padding: 2%;
 }
 
+#address p{
+    margin-top: -25px;
+}
+
+#address h2{
+    margin-top: -10px;
+}
+
 footer {
-    height: 50px;
-    padding: 3%;
+    padding: 20px;
     text-align: center;
 }
 
 #about {
-    background-color: #DEDEDE;
+    background-color: #366DA7;
     margin-right: 15%;
     margin-left: 15%;
     padding: 2%;
@@ -198,17 +206,18 @@ footer {
 }
 
 #experience {
-    background-color: #DEDEDE;
+    background-color: #366DA7;
     margin-right: 2%;
     margin-left: 15%;
     width: 34%;
     float: left;
     padding: 2%;
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 #awards {
-    background-color: #DEDEDE;
+    background-color: #366DA7;
     margin-right: 15%;
     width: 34%;
     float: left;
@@ -218,24 +227,61 @@ footer {
 
 h9 {
     font-size: 12px;
+    padding: 10px;
 }
 
 #thoughts {
     clear: both;
-    background-color: #FAFAFA;
+    background-color: #4AB967;
+    border-top: 2px solid #3D7DC0;
+    border-bottom: 2px solid #3D7DC0;
+    padding-bottom: 20px;
+}
+
+#thoughts h1{
+    text-align: center;
+    font-size: 40px;
 }
 
 .thought {
-    background-color: #DEDEDE;
+    background-color: #3D7DC0;
     width: 35%;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
-#thankyou h1, p{
+.thought p {
+    padding: 10px;
+}
+
+#thoughtOne {
+    position: relative;
+    left: 17%;
+    border: solid 1px #366DA7;
+}    
+
+#thoughtTwo {
+    position: relative;
+    left: 48%;
+    border: solid 1px #366DA7;
+} 
+
+#thoughtThree {
+    position: relative;
+    left: 17%;
+    border: solid 1px #366DA7;
+} 
+
+#thankyou h1{
+    text-align: center;
+}
+
+#thankyou p{
     text-align: center;
 }
 
 #thankyou {
-    border-bottom: 2px solid #7F7F7F;
+    border-bottom: 2px solid #3D7DC0;
 }
 
 footer {
