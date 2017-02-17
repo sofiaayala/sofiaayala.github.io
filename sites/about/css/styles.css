@@ -1,0 +1,115 @@
+body {
+  font-family: 'Ubuntu'; sans-serif
+  text-align: center;
+  background-color: #F2F2F2;
+  color: black;
+}
+
+img.profile {
+  float: right;
+  height: 200px;
+  width: 200px;
+  border: 2px solid #668B8B;
+  padding: 5px;
+  margin: 10px 20px 10px 10px;
+}
+
+img.experience {
+  height: 100px;
+  width: 100px;
+  border: 2px solid #668B8B;
+  padding: 5px;
+  margin: 10px 20px 10px 10px;
+}
+
+header {
+  background-color: #B4CDCD;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+  padding: 20px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: #5E5E5E;
+  font-size: 40px;
+  margin-bottom: 3px;
+  margin-top: 75px;
+}
+
+h2 {
+  margin: 20px 0px 0px 20px;
+  color: #5E5E5E;
+}
+
+h3, h4{
+  color: #737373;
+  margin: 0px 0px 0px 20px;
+}
+
+h3 > a {
+  color: #737373;
+  text-decoration: none;
+}
+
+h5 {
+  color: #737373;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+}
+
+p {
+  margin: 10px 0px 0px 20px;
+}
+
+footer {
+  clear: both;
+  background-color: #B4CDCD;
+  text-align: center;
+  padding: 20px;
+  margin-top: 70px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  left: 0px;
+}
+
+a {
+  color: #737373;
+}
+
+a:visited {
+  color: #737373;
+}
+
+a:hover {
+  color: #668B8B;
+}
+
+.left {
+  float: right;
+  width: 75%;
+  height: 200px;
+}
+
+.right {
+  float: right;
+  width: 20%;
+  height: 200px;
+}
+
+header a {
+padding: 5px;
+}
+
+#bottom {
+  margin-bottom: 50px;
+}
+
+footer a {
+padding: 5px;
+}
