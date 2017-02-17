@@ -2,96 +2,51 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Jorge Ayala</title>
+    <title>Sofia Ayala</title>
 
-    <link href='https://fonts.googleapis.com/css?family=Lato:300italic,300,600,800' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
 
     <link rel="Shortcut Icon" href="images/favicon.ico" type="image/x-icon">
 
+    <script src="https://use.fontawesome.com/c908e7c45f.js"></script>
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
-    <script src="https://use.fontawesome.com/c908e7c45f.js"></script>
   </head>
-  <body>
+
+  <body background="images/bokeh.jpg">
+
     <header>
-      <img id="logo"src="images/logo.png">
-      <nav> 
-        <span> Home </span> | 
-        <span><a href="about.html"> About </a></span> | 
-        <span><a href="#contact"> Contact </a></span>
-      </nav>
+      <button class="hamburger">&#9776;</button>
+      <button class="cross">&#735;</button>
     </header>
-    
-    <div id="banner">
-      <video autoplay loop class="fillWidth">
-        <source src="images/sunset.mp4" type="video/mp4" />Your browser does not support the video.
-        <source src="images/sunset.webm" type="video/webm" />Your browser does not support the video.
-      </video>
-    </div>
 
-<!--     <div id="searchHub"></div> -->
+    <video autoplay loop>
+      <source src="images/bokeh.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+      <source src="images/bokeh.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+    </video>
 
-    <div id="featuredListings">
-      <h1>Featured Listings</h1>
-      <div class="listing" id="listingOne">
-        <p id="paragraphOne">$115,000<br>Terrell, TX <br> 3 Bed / 2 Bath</p>
-      </div>
-      <div class="listing" id="listingTwo">
-        <p id="paragraphTwo">$130,000<br>Palacios, TX <br> 0.21 Acres</p>
-      </div>
-      <div class="listing" id="listingThree">
-        <p id="paragraphThree">$115,000<br>Garland, TX <br> 3 Bed / 1.5 Bath</p>
-      </div>
-      <div class="listing" id="listingFour">
-        <p id="paragraphFour">$128,000<br>Duncanville, TX <br> 3 Bed / 2 Bath</p>
-      </div>
-    </div>
 
-    <div id="jorgeAyala">
-      <img src="images/jorgeayala.jpg" id="profilepic"> 
-      <div id="welcome">
-        <h3>Welcome</h3>
-        <p>Are you looking to buy or sell your home? You've come to the right place! Jorge Ayala has decades of experience in real estate in North Texas can help you find the home of your dreams. Whether you're looking for a starter home or are looking for land to build your home from the ground up, Jorge Ayala is here to guide you.  Bright & Spacious, Top Floor/Corner Suite next to Fairview is sure to please. Come feel the warmth of tradition from Vinyl thermo windows, plenty of storage, commercial grade.</p>
-        <a href="about.html"><button>Read More</button></a>
-      </div>
-    </div>
+    <div class="menu">
+      <ul>
+        <a href="index.html"><li>Home</li></a>
+        <a href="about.html"><li>About</li></a>
+        <a href="work.html"><li>Work</li></a>
+        <a href="contact.html"><li>Contact</li></a>
+      </ul>
+    </div> 
 
-    <div id="contact">
-      <div id="contactForm">
-        <h2>Contact Us</h2>
-        <form action="https://formspree.io/ayala.sofiaf@gmail.com" method="POST">
-          <input type="text" name="name" placeholder="Name"></input>
-          <input type="text" name="email" placeholder="Email"></input>
-          <input type="text" name="subject" placeholder="Subject"></input>
-          <textarea name="message" placeholder="Message"></textarea>
-          <input type="submit" value="Submit" id="contactsubmit">
-          <input type="hidden" name="_next" value="thankyou.html" />
-        </form>
+      <div id="homeIntro">
+        <h1>Hello,</h1>
+        <h2>I'm</h2>
+        <img id="fullLogo" src="images/fullLogo.png">
       </div>
-      
-      <div id="phone">
-        <div id="phonerow">
-          <h2>Phone</h2>
-          <p> Cell: <a href="tel:+12147940130">(214) 794-0130</a></p>
-          <p>Fax: (123) 456-7890</p>
-        </div>
-        <div id="emailrow">
-          <h2>Email</h2>
-          <p><a href="mailto:jorgeayala7@hotmail.com">jorgeayala7@hotmail.com</a></p>
-        </div>
-      </div>
-      <div id="address">
-        <h2>Address</h2>
-        <p> 1814 Glouchester Dr. <br> Garland, TX 75044</p>
-        <div id="map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6691.530492850319!2d-96.65966383784586!3d32.933696976617384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c1ddaf054557d%3A0x2908b9b48fd76931!2s1814+Glouchester+Dr%2C+Garland%2C+TX+75044!5e0!3m2!1sen!2sus!4v1468277130633" width="100%" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-      </div>
-    </div>
-
-    <footer>
-      <a href="https://www.linkedin.com/in/jorge-ayala-898b211b" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a> | 
-      <a href="https://www.facebook.com/profile.php?id=1303815566" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+      <footer>
+        <a href="https://www.linkedin.com/in/sfayala" target="_none"><i class="fa fa-linkedin fa-2x"></i></a>
+        <a href="https://www.facebook.com/sofia.ayala.161" target="_none"><i class="fa fa-facebook fa-2x"></i></a>
+        <a href="https://twitter.com/SofiaAyala" target="_none"><i class="fa fa-twitter fa-2x"></i></a>
+        <a href="https://www.instagram.com/sofiaayala/" target="_none"><i class="fa fa-instagram fa-2x"></i></a>
+        <a href="https://www.pinterest.com/sofiaayala/" target="_none"><i class="fa fa-pinterest-p fa-2x"></i></a>   
     </footer>
 
     <script src="js/jquery-2.1.4.js"></script>
